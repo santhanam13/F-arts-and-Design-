@@ -72,7 +72,7 @@ header{
     width: 100%;
   }
   /* backgroundimg */
-  .backgroundimg img{
+  .backimg img{
     width: 1490px;
     height: 700px;
   }
@@ -125,7 +125,7 @@ header{
     flex-direction: column;
 }
 
-.fullmain{
+.top{
     display: flex;
     justify-content:space-evenly;
 }
