@@ -51,13 +51,13 @@ hr{
     display: flex;
 
  }
- .head1{
+ .heading{
     margin-left: 30px;
     padding-top: 30px;
     margin-top: 85px;
  }
 
- .head2 h3{
+ .headpart h3{
      font-size: 30px;
      position: absolute;
      top: 40px;
@@ -73,12 +73,12 @@ hr{
     margin-left: 20px;
  }
 
- .head2{
+ .headpart{
     margin-top: 70px;
     margin-left: 20px;
  }
  
- .head2 span a{
+ .headpart span a{
      
     border-radius: 50px;
     background-color: grey;

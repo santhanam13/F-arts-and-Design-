@@ -17,11 +17,12 @@ header{
     justify-content: space-between;
 }
 
-.head2{
+.headerpart2{
      margin-top: 30px;
      margin-right: 60px;
 }
-.head2 a{
+
+.headerpart2 a{
     
         text-decoration: none;
         color:white;
@@ -35,12 +36,12 @@ header{
         border-radius: 50px;
 }
 
-.head2 li {
+.headerpart2 li {
     list-style: none;
     padding-bottom: 15px;
 }
 
-.nav1 ul{
+.navigation ul{
     display: flex;
     position: absolute;
     top:60px;
@@ -49,17 +50,17 @@ header{
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
   }
-.nav1 li{
+.navigation li{
     list-style: none;
     padding-left: 40px;
 }
 
-.nav1 a{
+.navigation a{
     text-decoration: none;
     color: black;  
 }
 
-  .nav1 li::after{
+  .navigation li::after{
     content:"";
     background-color: red;
     display: block;
@@ -69,11 +70,11 @@ header{
     transition: 0.7s;
   }
 
-  .nav1 li:hover::after{
+  .navigation li:hover::after{
     width: 100%;
   }
 
-  .main h2{
+  .mainpart h2{
     background-color: blanchedalmond;
     color: black;
     text-align: center;
@@ -81,18 +82,20 @@ header{
     padding-bottom: 40px;
   }
 
-  .main2{
+  .main2,.mainpart2 {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
   }
+
+
   hr{
     margin-top: 30px;
     width: 1300px;
     margin-left: 130px;
   }
 
-  .motherchild{
+  .orderplace{
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
@@ -115,12 +118,12 @@ header{
     margin-top: 5px;
   }
 
-  .motherchild1 h2{
+  .orderplace h2{
           margin-bottom: 20px;
           float: right;
   }
 
-  .motherchild1 {
+  .orderplace {
     margin-top: 60px;
   }
 
@@ -130,6 +133,8 @@ header{
     margin-top: 10px;
     margin-left: 150px;
   }
+
+  
   button{
     margin-left: 370px;
     margin-top: 20px;

@@ -75,7 +75,7 @@ body {
   display: flex;
 }
 
-.nav1 ul {
+.navigation ul {
   display: flex;
   position: absolute;
   top: 150px;
@@ -85,17 +85,17 @@ body {
   font-size: 20px;
 }
 
-.nav1 li {
+.navigation li {
   list-style: none;
   padding-left: 40px;
 }
 
-.nav a {
+.navigation a {
   text-decoration: none;
   color: white;
 }
 
-.nav li::after {
+.navigation li::after {
   content: "";
   background-color: white;
   display: block;
@@ -105,17 +105,17 @@ body {
   transition: 0.7s;
 }
 
-.nav li:hover::after {
+.navigation li:hover::after {
   width: 100%;
 
 }
 
-.top {
+.topside {
   display: flex;
   justify-content: space-between;
 }
 
-.nav2 li a {
+.secondside li a {
   text-decoration: none;
   list-style: none;
   color: white;
@@ -177,7 +177,7 @@ body {
   padding-bottom: 60px;
 }
 
-#dummy {
+#product {
   margin-top: 1000px;
 }
 
@@ -248,7 +248,7 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-.not1 {
+.sellart {
   text-align: center;
   padding-top: 80px;
   font-family: 'Raleway', sans-serif;
@@ -257,12 +257,12 @@ body {
   height: 300px;
 }
 
-.not1 p {
+.sellart p {
   font-size: 20px;
   color: gray;
 }
 
-.not1 a {
+.sellart a {
   text-decoration: none;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -350,69 +350,76 @@ body {
 
 
 
-.foot{
+.foot {
   background-color: rgb(251, 248, 248);
 }
-.foot p{
+
+.foot p {
   background-color: white;
   width: 400px;
   position: absolute;
   text-align: center;
-  top:2000px;
+  top: 2000px;
   padding: 14px;
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 50px;
   color: black;
   left: 540px;
-  font-family:  sans-serif;
-}
-.foot img{
-    width: 900px;
-    height: 400px;
-    margin-left: 300px;
-    opacity: 0.5;
-    margin-top: 100px;   
+  font-family: sans-serif;
 }
 
-footer{
+.foot img {
+  width: 900px;
+  height: 400px;
+  margin-left: 300px;
+  opacity: 0.5;
+  margin-top: 100px;
+}
+
+footer {
   background-color: rgba(18, 17, 17, 0.868);
   color: white;
   letter-spacing: 4;
 }
-.foot0{
+
+.footercon {
   line-height: 3;
   margin-left: 30px;
 }
-.foot0 h1{
+
+.footercon h1 {
   font-size: 60px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
-.foot0 p{
+
+.footercon p {
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
 }
- .foot1{
+
+.footercon1 {
   display: flex;
   justify-content: space-around;
- }
+}
 
- .foot1{
+.footercon1 {
   margin-top: 50px;
   line-height: 3;
- }
- .foot1 h2{
+}
+
+.foottercon1 h2 {
   font-size: 30px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
- }
-
-.foot4 img{
-   width: 90px;
 }
 
-#name{
+.footercon4 img {
+  width: 90px;
+}
+
+#name {
   padding: 10px;
   padding-left: 15px;
   padding-right: 15px;
@@ -420,14 +427,14 @@ footer{
   font-family: 'Montserrat', sans-serif;
 }
 
-#feed{
+#feed {
   padding: 16px;
   padding-bottom: 20px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 
-.foot3 button{
+.footercon3 button {
   padding: 10px;
   border-radius: 20px;
   padding-left: 14px;
@@ -437,16 +444,13 @@ footer{
   margin-top: 10px;
 }
 
-.dum{
+.footerhead {
   display: flex;
   justify-content: space-between;
 }
 
-.dum2 img{
+.footermiddle img {
   margin-top: 60px;
   margin-right: 100px;
   width: 200px;
 }
-
-
- 
